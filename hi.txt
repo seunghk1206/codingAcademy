@@ -1,3 +1,0 @@
-a = int(input("give"))
-for _ in range(a):
-    print(a)
