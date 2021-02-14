@@ -1,7 +1,5 @@
 import pygame # pip install pygame!
 
-pygame.init()
-
 class player:
     def __init__(self, x, y, width, height):
         self.x = x
@@ -64,7 +62,7 @@ class projectile:
     def draw(self, screen):
         pygame.draw.circle(screen, self.color, (self.x, self.y), self.radius)
 
-class portal():
+class portal:
     dungeonPortal = [pygame.image.load('door/door_n.png'), pygame.image.load('door/door_m.png')]
     def __init__(self, x, y, width, height):
         self.x = x
