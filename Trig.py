@@ -45,4 +45,4 @@ def cos(x, n):
 def tan(x, n):
     return sin(x, n)/cos(x, n)
 
-print(sin(60, 84)**2, cos(60, 84)**2, tan(120, 84))
+print(sin(60, 84), cos(60, 84), tan(89, 84))
