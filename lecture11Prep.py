@@ -37,3 +37,7 @@ class math:
         return self.pi*r**2
     def volumeOfSphere(self, r):
         return 4/3*self.pi*r**3
+    def volumeOfCylinder(self, r, h):
+        return (self.pi*r**2)*h
+    def surfaceAreaOfSphere(self, r):
+        return 4*self.pi*r**2
