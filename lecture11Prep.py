@@ -28,8 +28,8 @@ printDataN(1000)
 printDataN(1000)
 printDataN(1000)
 
-class math:
-    pi = 3.141592
+class math():
+    pi = 3.14159265
     e = 2.718
     def sqrt(self, n):
         return n**(1/2)
@@ -79,7 +79,7 @@ class math:
             return x * self.factorial(x-1)
     def f(self, x, n):
         return (((-1)**n)*x**(2*n+1)/self.factorial(2*n+1))
-    def sin(self, x, n):
+    def sin(self, x, n = 84):
         if x%90 == 0:
             if (x//90)%2 == 1:
                 if ((x//90)//2)%2 == 1:
@@ -89,8 +89,28 @@ class math:
             else:
                 return 0
         else:
-            pi2deg = 3.1415/180
+            pi2deg = self.pi/180
             if n == 0:
                 return self.f(x*pi2deg, n)
             else:
                 return self.f(x*pi2deg, n) + self.sin(x,n-1)
+    def g(self, x, n):
+        return (((-1)**n)*x**(2*n)/self.factorial(2*n))
+    def cos(self, x, n = 84):
+        if x%90 == 0:
+            if (x//90)%2 == 1:
+                return 0
+            else:
+                if x%360 == 0:
+                    return 1
+                else:
+                    return -1
+        else:
+            pi2deg = 3.1415/180
+            if n == 0:
+                return self.g(x*pi2deg, n)
+            else:
+                return self.g(x*pi2deg, n) + self.cos(x,n-1)
+    def tan(self, x, n = 84):
+        return self.sin(x, n)/self.cos(x, n)
+print(math.tan(45, 84))
