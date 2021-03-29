@@ -79,7 +79,7 @@ class math():
             return x * self.factorial(x-1)
     def f(self, x, n):
         return (((-1)**n)*x**(2*n+1)/self.factorial(2*n+1))
-    def sin(self, x, n = 84):
+    def sin(self, x, n):
         if x%90 == 0:
             if (x//90)%2 == 1:
                 if ((x//90)//2)%2 == 1:
@@ -96,7 +96,7 @@ class math():
                 return self.f(x*pi2deg, n) + self.sin(x,n-1)
     def g(self, x, n):
         return (((-1)**n)*x**(2*n)/self.factorial(2*n))
-    def cos(self, x, n = 84):
+    def cos(self, x, n):
         if x%90 == 0:
             if (x//90)%2 == 1:
                 return 0
@@ -111,6 +111,6 @@ class math():
                 return self.g(x*pi2deg, n)
             else:
                 return self.g(x*pi2deg, n) + self.cos(x,n-1)
-    def tan(self, x, n = 84):
+    def tan(self, x, n):
         return self.sin(x, n)/self.cos(x, n)
 print(math.tan(45, 84))
