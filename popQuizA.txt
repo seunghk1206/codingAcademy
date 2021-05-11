@@ -1,0 +1,15 @@
+다음 코드는 무엇을 출력 할까요?
+a = 1
+for each in range(5):
+    a*=each
+print(a)
+
+a%b는 무엇을 리턴 하나요?
+
+sort라는 함수는 어떤 방식이 있나요?
+
+for loop 을 응용하여 sort함수를 완성하여 주세요
+template:
+    def sort(List):
+        return
+
