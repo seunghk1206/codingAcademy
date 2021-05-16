@@ -1,0 +1,11 @@
+1. A1
+
+2. Div M1 A1
+
+3. A2
+
+4. sort, M4 
+if %10 M2
+sum M2
+average M2
+A5
