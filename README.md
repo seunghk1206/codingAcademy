@@ -7,9 +7,9 @@ My product is a converter, so the purpose is to be used as mathematical calculat
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
-## Plan for further developement
+## Plan for further teaching
 
-No plans yet! But please email me for further development!
+No plans yet! But please email me for further teaching! If you'd like to be taught, also email me. Email: skkim1733@gmail.com
 
 
 ## update History
