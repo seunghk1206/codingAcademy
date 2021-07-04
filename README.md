@@ -12,8 +12,3 @@ _For more examples and usage, please refer to the [Wiki][wiki]._
 No plans yet! But please email me for further teaching! If you'd like to be taught, also email me. 
 > Email: skkim1733@gmail.com
 
-
-## update History
-
-* v1
-    * release v1 requires to be launched by python
