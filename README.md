@@ -3,12 +3,12 @@
 
 ## further explanation
 
-My product is a converter, so the purpose is to be used as mathematical calculation with my product. The product is as convinient that it even converts float into n nomial. This may yet be prone to errors, but as mentioned, unauthorized usage is strictly prohibited! Today is 08th of October of 2020 12:00 AM, and if someone steals this product, please email me!(skkim1733@gmail.com)
+My product is a converter, so the purpose is to be used as mathematical calculation with my product. The product is as convinient that it even converts float into n nomial. This may yet be prone to errors, but as mentioned, unauthorized usage is strictly prohibited! Today is 08th of October of 2020 12:00 AM, and if someone steals this product, please email me!
 
 _For more examples and usage, please refer to the [Wiki][wiki]._
 
 ## Plan for further teaching
 
-No plans yet! But please email me for further teaching! If you'd like to be taught, also email me. 
+No plans yet! But please email me for further teaching! If you'd like to be taught, mail me. 
 > Email: skkim1733@gmail.com
 
