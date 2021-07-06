@@ -8,9 +8,9 @@ made public.
 
 ## further explanation
 ```
-Though they are in Korean, codingAcademy can provide some 
-interesting coding tests, and pop quizes. If needed, 
-please use them.
+Though they are in Korean, codingAcademy can provide 
+some interesting coding tests, and pop quizes. If 
+needed, please use them.
 ```
 
 ## Plan for further teaching
