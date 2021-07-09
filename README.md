@@ -19,4 +19,3 @@ No plans yet! But please email me for further teaching!
 If you'd like to be taught, mail me. 
 ```
 > Email: skkim1733@gmail.com
-
