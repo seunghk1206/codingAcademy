@@ -28,10 +28,41 @@ for each in a:
     print(each)
     a.remove(1)
 '''
-def factorial(x):
-    if x == 0:
-        return 1
-    return x*factorial(x-1)
 
-print(factorial(2368))
-#9.22337*10^(18) 8byte로는 부족한 숫자.
+
+def factorial(n):
+    if n == 0:
+        return 1
+    return n*factorial(n-1)
+
+# 9.22337*10^(18) 8byte로는 부족한 숫자.
+def summation(x):
+    if x == 0:
+        return 0
+    return x+summation(x-1)
+
+print(summation(10))
+def f(x):
+    return x**12+6*x**11+7*x**10+6*x**4+3*x**3+2*x+3
+
+def intFBody(b, accuracy, i):#100000000
+    if accuracy == i:
+        return (b/accuracy)*f(b/accuracy*i)
+    return (b/accuracy)*f(b/accuracy*i)+intFBody(b, accuracy, i+1)
+
+def intF(b, accuracy):#100000000
+    return intFBody(b, accuracy, 0)
+
+print(intF(12, 3220))
+
+def intF(b):#100000000
+    i=0
+    limit = 3220
+    deltaX = b/limit
+    answer = 0
+    while i <= limit:
+        answer = answer + deltaX*f(deltaX*i)
+        i = i+1
+    return answer
+
+print(intF(12))
